@@ -17,10 +17,10 @@ else:
 
 # Task 2
 
-mood = input()
+mood = input("How are you feeling today?\n")
 if mood == "happy":
     print("That's great to hear!")
-elif mood() == "sad":
+elif mood == "sad":
     print("I hope your day gets better!")
 else:
     print("Invalid mood. try happy or sad!")
