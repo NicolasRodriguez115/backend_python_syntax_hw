@@ -17,10 +17,13 @@ else:
 
 # Task 2
 
-if input() == "happy":
+mood = input()
+if mood == "happy":
     print("That's great to hear!")
-elif input() == "sad":
+elif mood() == "sad":
     print("I hope your day gets better!")
+else:
+    print("Invalid mood. try happy or sad!")
 
 # 2. Python Data Types and type() Function
 
